@@ -7,6 +7,10 @@ p,button, div{
   padding: 0;
 }
 
+a{
+  text-decoration: none;
+}
+
 
 @keyframes App-logo-spin {
   from {

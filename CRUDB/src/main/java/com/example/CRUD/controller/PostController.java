@@ -24,8 +24,9 @@ public class PostController {
     }
 
     @PostMapping("/save")
-    public String RegisterPost (@RequestBody Post post, Model model){
+    public String RegisterPost (@RequestBody Post post){
         System.out.println("d");
+        System.out.println(post);
         OffsetDateTime offsetDateTime = OffsetDateTime.now();
         post.setCreated_at(offsetDateTime);
 
@@ -43,6 +44,10 @@ public class PostController {
     public List<Post> GetAllPost(){
         return postService.PostReturn();
     }
+
+    @PostMapping("/get")
+    public Post GetOnePost(String id) {
+        return postService.PostView(Long.valueOf(id));}
 
     @PostMapping("/update")
     public String UpdatePost(@RequestBody Post post, Model model){

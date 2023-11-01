@@ -10,10 +10,11 @@
     margin-bottom: 15px;
 }
 
-.header>p{
+.header>a{
     margin-left: 20px;
     font-size: 30px;
     font-weight: 500;
+    color: black;
 }
 
 .childPage{

@@ -42,7 +42,7 @@ public class PostService {
     }
 
     public List<Post> PostReturn(){
-        return postRepository.findAll(Sort.by(Sort.Direction.DESC , "created_at"));
+        return postRepository.findAll(Sort.by(Sort.Direction.DESC , "id"));
     }
 
     public Post PostView(Long id){

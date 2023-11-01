@@ -1,11 +1,12 @@
 import React from "react";
 import "./HeaderStyle.css";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 function Header(){
+
     return(
         <div className="header">
-            <p>CRUD</p> 
+            <Link to="/">CRUD</Link> 
         
 
             <div className="childPage">

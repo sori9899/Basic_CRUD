@@ -1,0 +1,60 @@
+.list>p{
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.list>a{
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+}
+
+.list>a:hover{
+    color: gray;
+}
+
+
+
+.list-data, .data-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.list-data{
+    margin: 10px 10px;
+    padding: 10px 0px;
+}
+
+.data-content{
+    margin-left: 20px;
+}
+
+.data-content:hover{
+    cursor: pointer;
+    background-color: rgb(207, 207, 207);
+    color: white;
+}
+
+.data-content>p, .list-data>p{
+    margin-left: 10px;
+}
+
+.modify{
+    cursor: pointer;
+}
+
+.modify:hover{
+    color: gray;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+.delete:hover{
+    color: gray;
+}
