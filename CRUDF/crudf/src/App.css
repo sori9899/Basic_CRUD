@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+p,button, div{
+  margin: 0;
+  padding: 0;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

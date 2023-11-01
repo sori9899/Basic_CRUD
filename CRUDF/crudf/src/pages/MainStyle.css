@@ -1,0 +1,10 @@
+
+.Main >p {
+    text-align: center;
+}
+
+.Main >p:nth-child(1){
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 700;
+}
